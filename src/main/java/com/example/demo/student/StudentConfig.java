@@ -29,7 +29,7 @@ public class StudentConfig {
             );
 
             repository.saveAll(
-                    List.of(mariam, alex)
+                    List.of(joe, sam)
             );
         };
     }
