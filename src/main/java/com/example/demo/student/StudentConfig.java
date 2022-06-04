@@ -16,15 +16,15 @@ public class StudentConfig {
     @Bean
     CommandLineRunner commandLineRunner(StudentRepository repository) {
         return args -> {
-            Student mariam = new Student(
-                    "Mariam",
-                    "mariam.jamal@fakeemail.com",
+            Student joe = new Student(
+                    "Joe",
+                    "joe@fakeemail.com",
                     LocalDate.of(2000, JANUARY, 5)
             );
 
-            Student alex = new Student(
-                    "Alex",
-                    "alex@fakeemail.com",
+            Student sam = new Student(
+                    "Sam",
+                    "sam@fakeemail.com",
                     LocalDate.of(2004, JANUARY, 5)
             );
 
